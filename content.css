@@ -1,0 +1,334 @@
+@font-face {
+	//font-family: ITCFranklinGothicStd-Demi;
+	//src: url('http://trytobegood.com/toto/ITCFranklinGothicStd-Demi.otf');
+}
+
+#totoTickertape
+{
+	padding: 0;
+	margin: 0;
+	background: #ff4e00;
+	//font-family: ITCFranklinGothicStd-Demi;
+	font-family: 'Helvetica', Arial, sans-serif !important;
+	color: #fff !important;
+	position: relative;
+	height: 50px;
+	overflow: hidden;
+}
+
+#totoTickertape p
+{
+	padding: 0; margin: 0;
+	line-height: 48px;
+	color: #fff !important;
+	font-size: 18px;
+}
+
+#totoTickertape p em
+{
+	font-style: italic;
+}
+
+#totoTickertape p small
+{
+	font-size: 12px;
+}
+
+
+#totoLogo
+{
+	width: 50px; height: 50px;
+	position: absolute;
+	top: 0; left: 0;
+	background: url('http://trytobegood.com/toto/toto_50x50.png');
+}
+
+#totoGo
+{
+	width: 50px; height: 50px;
+	position: absolute;
+	top: 0; right: 50px;
+	background: url('http://trytobegood.com/toto/toto_go.png');
+}
+
+#totoGo:hover
+{
+	cursor: pointer;
+}
+
+#totoClose
+{
+	width: 50px; height: 50px;
+	position: absolute;
+	top: 0; right: 0;
+	background: url('http://trytobegood.com/toto/toto_close.png');
+}
+
+#totoClose:hover
+{
+	cursor: pointer;
+}
+
+#totoTweet
+{
+	display: none;
+	width: 50px; height: 50px;
+	position: absolute;
+	top: 0; right: 50px;
+	background: url('http://trytobegood.com/toto/toto_tweet.png');
+}
+
+#totoTweet:hover
+{
+	cursor: pointer;
+}
+
+#totoTickertape #start
+{
+	display: none;
+	width: 100000%;
+	overflow: hidden;
+}
+
+#totoTickertape #start p
+{
+	float: left;
+}
+
+#totoTickertape .left
+{
+	float: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 70px;
+}
+
+#totoTickertape .right
+{
+	float: right;	
+	font-style: italic;
+	margin-right: 120px;
+}
+
+#totoTickertape .trackerImg
+{
+	float: left;
+	overflow: hidden;
+	border-radius: 99px;
+	margin: 5px 10px 0 10px;
+	width: 35px; height: 35px;
+}
+
+#totoTickertape .trackerImg img
+{
+	width: 70px;
+}
+
+#totoTickertape .trackerNews
+{
+	float: left;
+	background: url('http://trytobegood.com/toto/icon_news.png') no-repeat;
+	margin: 10px 10px 0 10px;
+	width: 26px; height: 28px;
+}
+
+#totoTickertape .totoCommunity
+{
+	float: left;
+	background: url('http://trytobegood.com/toto/icon_magnify.png') no-repeat;
+	margin: 10px 10px 0 10px;
+	width: 23px; height: 22px;
+}
+
+#totoTickertape a:link, #totoTickertape a:visited, #totoTickertape a:hover, #totoTickertape a:active
+{
+	color: #fff;
+	text-decoration: none !important;
+}
+
+.trackerPicture{
+	width: 100px;
+	height:100px;
+	position: absolute;
+	z-index: 100;
+}
+
+.clear 
+{
+	clear:both;
+}
+
+
+
+/*/\/\/\ /\/\/\ /\/\/\ /\/\/\  DROP DOWN /\/\/\ /\/\/\ /\/\/\ /\/\/\*/
+	#dropdown_container{
+		width: 300px;
+		height: 470px;
+		padding: 5px 10px;
+		background: white;
+		font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		overflow: scroll;
+	}
+	#dropdown_header{
+		color: #ff4e00;
+		margin-top: 10px;
+
+	}
+	#dropdown_header h1{
+		font-size: 18px;
+	}
+	#dropdown_header div#call_for_help{
+		width: 100%;
+		margin: 10px 0; 
+	}
+	#dropdown_header img{
+		float: left;
+		margin-right: 10px;
+	}
+	#dropdown_header h2{
+		font-size: 20px;
+		font-weight: 200;
+		font-style: italic;
+	}
+
+	ol#tracker_content{
+		float: left;
+		width: 100%;
+		color: #52d1d3;
+		font-size: 16px;
+		list-style: none;
+		padding: 0;
+	}
+
+	li.eachTracker{
+		margin-top: 10px;
+		margin-bottom: 20px;
+		float:left;	 
+	}
+	li.eachTracker h3{
+		color: #52d1d3;
+		font-size: 16px;
+	}
+	#dropdown_container section.primary_content{
+		width: 100%;
+		float: left;
+		margin-bottom: -10px; 
+	}
+	#dropdown_container article.text_column{
+		float: left;
+		width: 85%;
+	}
+	li.eachTracker p.political_info{
+		color: black;
+		font-size: 13px;
+		font-style: italic;
+		margin-top: 5px;
+	}
+	li.eachTracker p.political_info{
+		color: black;
+		font-size: 13px;
+		font-style: italic;
+		float: left;
+	}
+	li.eachTracker p.political_info span.political_leaning{
+		font-style: normal;
+	}
+
+	li.eachTracker p.political_info img{
+		display: none;
+		width: 12px;
+		height: 12px;
+	}
+	
+	article.pic_column{
+		float: left;
+		width: 15%;
+		margin-top: -5px;
+	}
+
+	li.eachTracker img.tracker_picture{
+		width: 50px;
+		height: 50px;
+		text-align: right;
+		border-radius: 25px;
+	}
+
+	section.secondary_content{
+		float: left;
+		margin-top: 20px;
+		width: 100%;
+		color: black;
+	}
+
+	section.secondary_content article.text_column{
+		float: left;
+		width: 85%;
+	}
+
+	section.secondary_content article.pic_column{
+		float: left;
+		width: 8%;
+		margin-right: 2%;
+	}
+
+	section.secondary_content article.pic_column img{
+		width: 100%;
+	}
+
+	section.secondary_content h5{
+		font-size: 13px;
+		font-style: italic;
+		margin-top: -3px;
+		margin-bottom: 5px;
+	}
+	section.secondary_content ul{
+		font-size: 13px;
+		list-style-position: inside;
+		list-style-type: disc;
+	}
+
+	section.secondary_content ul li{
+		
+	}
+
+	section.secondary_content ul li span.post_time{
+		color: gray;
+		font-style: italic;
+		font-weight: 200;
+	}
+
+	span.icon_twitter img{
+		width: 18px;
+	}
+
+	p.unknown{
+		color: black;
+		font-size: 16px;
+		margin-top: 5px;
+		float: left;
+	}
+
+	div.buttons_wrapper{
+		width: 100%;
+	}	
+
+	section.dropdown_button{
+		width: 100%;
+		height: 30px;
+		background: #ff580f;
+		margin-top: 5px; 
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+		text-align: center;
+		top: 15px;
+		padding-top: 10px; 
+		cursor: pointer;
+		transition: all 1.0s;
+	}
+	section.dropdown_button:hover{
+		color:#52d1d3;
+	}
+
+
+

@@ -1,0 +1,33 @@
+{
+  "name": "Toto Knows",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description" : "There are people spying on you online. Toto pulls back the curtain to show you who they are, and helps you find out everything there is to know about them, too, like where they live and how they vote.",
+  "icons": { "16": "icons/16x16.png", "48": "icons/48x48.png", "128": "icons/128x128.png" },
+
+
+  "browser_action": {
+    "default_icon": {
+      "19": "icons/19x19.png",
+      "38": "icons/38x38.png"
+    },
+    "default_title": "Toto Knows",
+    "default_popup": "browseraction/popup.html"
+  },
+  
+  "web_accessible_resources": [
+	  "jquery.min.map"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["jquery.min.js","content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  
+  "permissions": ["tabs", "http://*/*", "https://*/*"]
+  
+  
+}
